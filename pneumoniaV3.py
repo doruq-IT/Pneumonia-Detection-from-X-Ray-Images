@@ -70,14 +70,14 @@ def generate_heatmap(model, preprocessed_image):
 
 if __name__ == "__main__":
     # Modeli yükle
-    model_path = "C:\\Users\\okan_\\Desktop\\alexandre\\rontgen-hastalik\\model.h5"
+    model_path = "model path\\model.h5"
     model = load_model(model_path)
 
     # Modelin beklediği giriş şeklini yazdır
     print("Modelin beklediği giriş şekli:", model.input_shape)
     
     # Örnek bir görüntü yolu (Bu kısmı değiştirebilirsiniz)
-    image_path = "C:\\Users\\okan_\\Downloads\\test\\pneumonia\\person78_bacteria_385.jpeg"
+    image_path = "image path"
 
     # Görüntüyü ön işleme
     preprocessed_image = preprocess_image(image_path)
