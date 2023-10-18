@@ -1,0 +1,10 @@
+streamlit==2.10.0
+tensorflow==2.9.0
+numpy==1.22.3
+Pillow==9.1.0
+matplotlib==3.5.1
+opencv-python==4.6.0.46
+pandas==1.4.2
+seaborn==0.12.2
+scikit-learn==1.0.2
+albumentations==1.1.1
