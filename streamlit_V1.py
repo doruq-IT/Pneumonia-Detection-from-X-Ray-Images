@@ -7,7 +7,7 @@ from pneumoniaV3 import load_model, preprocess_image, make_prediction, interpret
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Modeli yükle
-model_path = "C:\\Users\\okan_\\Desktop\\alexandre\\rontgen-hastalik\\model.h5"
+model_path = "model.h5"
 model = load_model(model_path)
 
 # Sidebar
