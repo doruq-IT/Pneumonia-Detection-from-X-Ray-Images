@@ -3,4 +3,4 @@ numpy==1.23.5
 Pillow==9.5.0
 matplotlib==3.7.1
 opencv-python-headless==4.8.1.78
-tensorflow==2.14.0
+tensorflow-lite==2.14.0
